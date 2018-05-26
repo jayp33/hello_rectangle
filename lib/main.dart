@@ -9,6 +9,8 @@ class HelloRectangle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.greenAccent,
+      height: 400.0,
+      width: 300.0,
     );
   }
 }
